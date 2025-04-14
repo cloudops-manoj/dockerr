@@ -1,0 +1,10 @@
+version : '3.2'
+services : 
+movies :
+  images : manoj1142/movies
+  ports :
+    - "81:80"
+train :
+  images : manoj1142/train
+  ports :
+    - "82:80"
