@@ -3,8 +3,8 @@ services:
   movies:
     image: manoj1142/movies
     ports:
-      - "81:80"
+      - "86:80"
   train:
     image: manoj1142/train
     ports:
-      - "82:80"
+      - "87:80"
